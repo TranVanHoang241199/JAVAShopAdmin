@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1px;
+    position: relative;
+}
+
+/* common */
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+  
+
+
+
+
+
+
+
+

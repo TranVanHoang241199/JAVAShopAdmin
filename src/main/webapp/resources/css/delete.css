@@ -1,0 +1,87 @@
+.section__title {
+	margin-top: 30px;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.section__box {
+	border-radius: 9px;
+	border-top: 4px solid #3c8dbc;
+	margin-top: 15px;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.section__item {	
+	display: flex;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #c8c7cc;
+    align-items: center;
+}
+
+.section-item__title {
+	width: 349px;
+    font-size: 13px;
+    height: 100%;
+    justify-content: end;
+    display: flex;
+    padding: 0 12px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.section__dsec {
+	width: 100%;
+    padding: 20px;
+}
+
+.section__dsec p {
+	font-size: 13px;
+}
+
+.section__option {
+	width: 100%;
+    height: auto;
+    padding: 23px 100px 23px 215px;
+    margin-top: 22px;
+}
+
+.text-danger {
+	margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #dd4b39;
+}
+
+.form__btn--delete {
+	height: 34px;
+    width: 119px;
+    background-color: #dd4b39;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 3px; 
+}
+
+.form__btn--back {
+    padding: 9.03px 16px;
+    display: inline-block;
+    background-color: #f39c12;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px; 
+    font-weight: 500;
+}
+
+.form__btn--delete i,
+..form__btn--back i {
+	margin-right: 1px;
+}

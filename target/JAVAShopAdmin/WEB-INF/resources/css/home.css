@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* reset */
+:root { 
+	/* background */
+	--backgruond: #ecf0f5;
+}
+
+section {
+	padding: 20px 15px 80px 245px;
+	min-height: 780px;
+	background-color: var(--backgruond);
+}

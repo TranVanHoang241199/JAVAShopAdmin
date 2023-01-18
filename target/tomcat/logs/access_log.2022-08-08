@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:42 +0700] "GET /JAVAShopAdmin HTTP/1.1" 302 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:42 +0700] "GET /JAVAShopAdmin/ HTTP/1.1" 200 1532 http-bio-8080-exec-3 218
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:43 +0700] "GET /JAVAShopAdmin/resources/img/login/logo_lagi_8_resize.jfif;jsessionid=A5BD948EEEADE141ECA9436BBDC18BFE HTTP/1.1" 200 75681 http-bio-8080-exec-1 119
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:43 +0700] "GET /JAVAShopAdmin/resources/css/login.css;jsessionid=A5BD948EEEADE141ECA9436BBDC18BFE HTTP/1.1" 200 2900 http-bio-8080-exec-4 120
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:43 +0700] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:49 +0700] "POST /JAVAShopAdmin/login_admin HTTP/1.1" 302 - http-bio-8080-exec-7 876
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:49 +0700] "GET /JAVAShopAdmin/home_admin HTTP/1.1" 200 2761 http-bio-8080-exec-8 81
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:56 +0700] "GET /JAVAShopAdmin/category_admin HTTP/1.1" 200 7897 http-bio-8080-exec-9 249
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:56 +0700] "GET /JAVAShopAdmin/resources/css/category.css HTTP/1.1" 404 1031 http-bio-8080-exec-10 8
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:58 +0700] "GET /JAVAShopAdmin/product_admin HTTP/1.1" 200 15773 http-bio-8080-exec-10 293
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:32:58 +0700] "GET /JAVAShopAdmin/resources/css/category.css HTTP/1.1" 404 1031 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:33:00 +0700] "GET /JAVAShopAdmin/product_admin-update?productID=90 HTTP/1.1" 200 14784 http-bio-8080-exec-10 228
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:33:02 +0700] "GET /JAVAShopAdmin/supplier_admin HTTP/1.1" 200 10734 http-bio-8080-exec-10 93
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:33:02 +0700] "GET /JAVAShopAdmin/resources/css/category.css HTTP/1.1" 404 1031 http-bio-8080-exec-10 4
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:33:05 +0700] "GET /JAVAShopAdmin/supplier_admin HTTP/1.1" 200 10734 http-bio-8080-exec-10 48
+0:0:0:0:0:0:0:1 - - [08/Aug/2022:02:33:05 +0700] "GET /JAVAShopAdmin/resources/css/category.css HTTP/1.1" 404 1031 http-bio-8080-exec-8 3

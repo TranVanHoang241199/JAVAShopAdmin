@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+/* reset */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+:root {
+	/* background */
+	--background__blue: #3c8dbc;	
+	--background__nav: #222d32;
+	--background__item: #2c3b41;
+	/* color */
+	--color-orange: #ee4d2d;
+	--color-white: #fff;
+	--color-gray: rgba(0,0,0,.26);
+	--color__text-gray: #b8c7ce;
+	/* boder */
+	--boder: 5px;
+	/* hover */
+	--hover__btn: #367F9E;
+	--hover__nav: #000;
+}
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.1px;
+    position: relative;
+}
+
+/* common */
+.clear {
+    clear: both;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+/* header */
+header {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color: #3c8dbc; 	
+	justify-content: space-between;
+	align-items: center;
+	/* padding: 0 90px; */
+	/* position: fixed; */
+}
+
+.logo__link {
+	background-color: #367fa9;
+	display: flex;
+	text-decoration: none;
+	width: 230px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo__link:hover {
+	background-color: var(--hover__btn);
+}
+
+.logo_txt {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.account__link {
+	height: 100%;	
+	width: 230px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.account__link:hover {
+	background-color: var(--hover__btn);
+}
+
+.account__link--hover:hover .account__profile {
+	display: flex;
+}
+
+header .account__img {
+	height: 35px;
+	width: 35px;
+	border-radius: 20px; 
+}
+
+.account__name {
+	color: #fff;
+	margin-left: 10px;	
+	font-size: 13px;
+}
+
+.account__profile {
+	display: none;
+	background-color: red;
+	position: absolute;
+	top: 50px;
+	width: 280px;
+	height: 227px;
+	flex-direction: column;
+	right: 0;
+}
+
+.profile__background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 77%;
+	background-color: var(--background__blue);
+	
+}
+
+.profile__img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+.profile__name {
+	margin: 13px 0;
+	color: rgba(255,255,255,0.8);
+}
+
+.profile__option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 23%;
+	background-color: #f9f9f9;
+	width: 100%;
+}
+
+.profile__btn {
+	text-decoration: none;
+	border: 1px solid #ddd;
+	display: flex;
+	padding: 8px;
+	color: #666666;
+	background-color: #f4f4f4;
+	margin: 0 8px;
+}
+
+/* nav */
+
+#optional {
+	display: flex;
+	width: 230px;/* 
+	height: 828px; */
+	height: 100%;
+	background-color: var(--background__nav);
+	flex-direction: column;
+}
+
+.optional__list {
+	width: 100%;
+}
+
+.optional__item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.item__link {
+	padding: 15px 0 15px 15px;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	color: var(--color__text-gray);
+	font-size: 14px;
+}
+
+.optional__item:hover .item__link {
+	background-color: var(--hover__nav);
+	color: #fff;
+}
+
+.item__icon {
+	color: var(--color__text-gray);
+	
+}
+
+.manage__list {
+	background-color: var(--background__item);
+}
+
+.manage__item {
+	padding: 10px 0 10px 27px;
+}
+
+.manage__link {
+	text-decoration: none;
+	color: var(--color__text-gray);
+	font-size: 13px;
+}
+
+.manage__item:hover .manage__link {
+	color: #fff;
+}
+
+/* footer */
+
+footer {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 230px;
+	background-color: #fff;
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+}
+
+.footer__dsec {
+	margin-left: 20px;
+	display: flex;
+}
+
+.dsec__license {
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.dsec__name-shop--link {
+	padding: 0 3px;
+	font-size: 13px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #3c8dbc;
+}
+
+.dsec__reserved {
+	font-weight: 200;
+	font-size: 13px;
+}
+
+.footer__version {
+	margin-right: 20px;
+	display: flex;
+}
+
+.version__name {
+	padding-right: 3px;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.version__number {
+	font-weight: 200;
+	font-size: 12.5px;
+}
+
+
+#optional {
+	position: absolute;
+	left: 0;
+}
